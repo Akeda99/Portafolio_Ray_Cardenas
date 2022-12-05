@@ -220,7 +220,7 @@ font-size: 18px;
 line-height: 28px;
 color: var(--grey);
 }
-.about_me h2, .title_skills h2{
+.about_me h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -228,10 +228,20 @@ color: var(--grey);
     line-height: 75px;
     color: var(--darkgrey);
 }
-.about_me h2 span, .title_skills h2 span{
+.about_me h2 span {
 color: var(--grey);
 }
-
+.title_skills h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 75px;
+    color: var(--grey);
+}
+.title_skills h2 span{
+    color: var(--darkgrey);
+}
 .skills{
     display: grid;
     grid-template-columns: 300px 300px;
@@ -364,4 +374,65 @@ outline: 0;
 font-style: normal;
 font-weight: 300;
 font-size: 12px;
-line-height: 150%; }
+line-height: 150%;
+ }
+ .img_utilizadas{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+ }
+.img_utilizadas img, .img_learning img{
+    width: 50px;
+    height: 50px;
+}
+
+.my_tec{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.tec_utilizadas{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+gap: 2rem;
+}
+.title_tec {
+display: flex;
+justify-content: center;
+
+}
+.title_tec h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 75px;
+color: var(--grey);
+}
+.title_tec h2 span{
+color: var(--darkgrey);
+    }
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.img_other{
+    display: flex;
+    gap: 4rem;
+}
+.img_other img{
+    width: 50px;
+    aspect-ratio: 1;
+}
+.other_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
