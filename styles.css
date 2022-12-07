@@ -449,7 +449,10 @@ color: var(--darkgrey);
 display: flex;
 flex-direction: column;
 }
-
+.contact{
+    position:relative;
+    z-index: -2;
+}
   
 .form{
 width:340px;
@@ -462,8 +465,8 @@ padding:20px 30px;
 max-width:calc(100vw - 40px);
 box-sizing:border-box;
 font-family:'Montserrat',sans-serif;
-position:relative;
-z-index: -2;
+
+
 }
 
 .form h2
